@@ -21,8 +21,8 @@ monthly_challenges = {
 
 
 def monthly_challenge_by_number(request, month):
-    if 1 <= month <= 12:
-        months = list(monthly_challenges.keys())
+    months = list(monthly_challenges.keys())
+    if 1 <= month <= len(months):
         redirect_month = months[month-1]
         return HttpResponseRedirect(f'/challenges/{redirect_month}')
     else:
