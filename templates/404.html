@@ -1,4 +1,9 @@
 {% extends 'base.html' %}
+{% load static %}
+
+{% block css_files %}
+<link rel="stylesheet" href="{% static '404.css' %}">
+{% endblock %}
 
 {% block page_title %}
     Something went wrong - we could not find that page!
