@@ -1,0 +1,1 @@
+web: gunicorn monthly_challenges.wsgi
