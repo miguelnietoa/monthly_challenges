@@ -4,18 +4,18 @@ from django.urls import reverse
 from django.template.loader import render_to_string
 
 monthly_challenges = {
-    'january': 'Eat no meat for the entire month!',
-    'february': 'Walk for at least 20 minutes every day!',
-    'march': 'Learn Django for at least 20 minutes every day!',
-    'april': 'Go to the gym!',
-    'may': 'Eat no meat for the entire month!',
-    'june': 'Walk for at least 20 minutes every day!',
-    'july': 'Learn Django for at least 20 minutes every day!',
-    'august': 'Go to the gym!',
-    'september': 'Eat no meat for the entire month!',
-    'october': 'Walk for at least 20 minutes every day!',
-    'november': 'Learn Django for at least 20 minutes every day!',
-    'december': None,
+    'january': 'Drink more water!',
+    'february': 'Make breakfast a priority!',
+    'march': 'Get more sleep!',
+    'april': 'Keep a food journal!',
+    'may': 'Go for a walk!',
+    'june': 'Eat fruits and veggies!',
+    'july': 'Downsize your plates!',
+    'august': 'Go meatless!',
+    'september': 'Find a workout buddy!',
+    'october': 'Savor your meals!',
+    'november': 'Unplug and unwind!',
+    'december': 'Don\'t skip meals!',
 }
 
 # Create your views here.
